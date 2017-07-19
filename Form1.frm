@@ -3,13 +3,13 @@ Object = "{6BF52A50-394A-11D3-B153-00C04F79FAA6}#1.0#0"; "wmp.dll"
 Begin VB.Form Form1 
    BackColor       =   &H8000000A&
    Caption         =   "行为观察"
-   ClientHeight    =   10545
+   ClientHeight    =   12375
    ClientLeft      =   195
    ClientTop       =   540
-   ClientWidth     =   15930
+   ClientWidth     =   22800
    LinkTopic       =   "Form1"
-   ScaleHeight     =   10545
-   ScaleWidth      =   15930
+   ScaleHeight     =   12375
+   ScaleWidth      =   22800
    StartUpPosition =   3  '窗口缺省
    Begin VB.TextBox Text1 
       BeginProperty Font 
@@ -22,11 +22,96 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   375
+      Index           =   12
+      Left            =   18000
+      TabIndex        =   35
+      Top             =   8760
+      Width           =   1815
+   End
+   Begin VB.TextBox Text1 
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   12
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Index           =   11
+      Left            =   18000
+      TabIndex        =   34
+      Top             =   8160
+      Width           =   1815
+   End
+   Begin VB.TextBox Text1 
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   12
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Index           =   10
+      Left            =   18000
+      TabIndex        =   33
+      Top             =   7560
+      Width           =   1815
+   End
+   Begin VB.TextBox Text1 
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   12
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Index           =   9
+      Left            =   18000
+      TabIndex        =   32
+      Top             =   6960
+      Width           =   1815
+   End
+   Begin VB.TextBox Text1 
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   12
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Index           =   8
+      Left            =   18000
+      TabIndex        =   31
+      Top             =   6360
+      Width           =   1815
+   End
+   Begin VB.TextBox Text1 
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   12
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
       Index           =   7
-      Left            =   12240
-      TabIndex        =   30
-      Top             =   5880
-      Width           =   1455
+      Left            =   18000
+      TabIndex        =   25
+      Top             =   5760
+      Width           =   1815
    End
    Begin VB.TextBox Text1 
       BeginProperty Font 
@@ -40,10 +125,10 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Index           =   6
-      Left            =   12240
-      TabIndex        =   29
-      Top             =   5280
-      Width           =   1455
+      Left            =   18000
+      TabIndex        =   24
+      Top             =   5160
+      Width           =   1815
    End
    Begin VB.TextBox Text1 
       BeginProperty Font 
@@ -57,10 +142,10 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Index           =   5
-      Left            =   12240
-      TabIndex        =   28
-      Top             =   4680
-      Width           =   1455
+      Left            =   18000
+      TabIndex        =   23
+      Top             =   4560
+      Width           =   1815
    End
    Begin VB.TextBox Text1 
       BeginProperty Font 
@@ -74,10 +159,10 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Index           =   4
-      Left            =   12240
-      TabIndex        =   27
-      Top             =   4080
-      Width           =   1455
+      Left            =   18000
+      TabIndex        =   22
+      Top             =   3960
+      Width           =   1815
    End
    Begin VB.TextBox Text1 
       BeginProperty Font 
@@ -91,10 +176,10 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Index           =   3
-      Left            =   12240
-      TabIndex        =   26
-      Top             =   3480
-      Width           =   1455
+      Left            =   18000
+      TabIndex        =   21
+      Top             =   3360
+      Width           =   1815
    End
    Begin VB.TextBox Text1 
       BeginProperty Font 
@@ -108,9 +193,9 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Index           =   1
-      Left            =   15840
+      Left            =   18000
       TabIndex        =   14
-      Top             =   2040
+      Top             =   1680
       Width           =   855
    End
    Begin VB.TextBox Text1 
@@ -125,39 +210,39 @@ Begin VB.Form Form1
       EndProperty
       Height          =   375
       Index           =   0
-      Left            =   11640
+      Left            =   18000
       TabIndex        =   11
-      Top             =   2040
-      Width           =   2055
+      Top             =   1080
+      Width           =   3375
    End
    Begin VB.CommandButton Command2 
       Caption         =   "跳转"
       Height          =   375
-      Left            =   17160
+      Left            =   9120
       TabIndex        =   10
-      Top             =   1320
+      Top             =   10320
       Width           =   1095
    End
    Begin VB.TextBox Text2 
       Height          =   390
-      Left            =   14280
+      Left            =   7320
       TabIndex        =   9
-      Top             =   1320
+      Top             =   10320
       Width           =   1335
    End
    Begin VB.TextBox key_con 
-      Height          =   390
-      Left            =   18720
+      Height          =   270
+      Left            =   9360
       TabIndex        =   5
-      Top             =   840
-      Width           =   1335
+      Top             =   10320
+      Width           =   660
    End
    Begin VB.CommandButton Command1 
       Caption         =   "导入播放"
       Height          =   375
-      Left            =   17160
+      Left            =   9120
       TabIndex        =   4
-      Top             =   840
+      Top             =   9720
       Width           =   1095
    End
    Begin VB.TextBox url 
@@ -171,11 +256,106 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   375
-      Left            =   11640
+      Left            =   1680
       TabIndex        =   2
       Text            =   "D:\4我的相关------------------照片等\joke_essay\眉间雪_高清.mp4"
-      Top             =   840
-      Width           =   5055
+      Top             =   9720
+      Width           =   6975
+   End
+   Begin VB.Label Label13 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "F5 ："
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   10.5
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   210
+      Left            =   17160
+      TabIndex        =   30
+      Top             =   6480
+      Width           =   525
+   End
+   Begin VB.Label Label12 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "F5 ："
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   10.5
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   210
+      Left            =   17160
+      TabIndex        =   29
+      Top             =   7080
+      Width           =   525
+   End
+   Begin VB.Label Label11 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "F5 ："
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   10.5
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   210
+      Left            =   17160
+      TabIndex        =   28
+      Top             =   8880
+      Width           =   525
+   End
+   Begin VB.Label Label10 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "F5 ："
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   10.5
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   210
+      Left            =   17160
+      TabIndex        =   27
+      Top             =   7680
+      Width           =   525
+   End
+   Begin VB.Label Label9 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "F5 ："
+      BeginProperty Font 
+         Name            =   "宋体"
+         Size            =   10.5
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   210
+      Left            =   17160
+      TabIndex        =   26
+      Top             =   8280
+      Width           =   525
    End
    Begin VB.Label Label19 
       AutoSize        =   -1  'True
@@ -191,9 +371,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   11640
-      TabIndex        =   25
-      Top             =   6000
+      Left            =   17160
+      TabIndex        =   20
+      Top             =   5880
       Width           =   525
    End
    Begin VB.Label Label18 
@@ -210,9 +390,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   11640
-      TabIndex        =   24
-      Top             =   5400
+      Left            =   17160
+      TabIndex        =   19
+      Top             =   5280
       Width           =   525
    End
    Begin VB.Label Label17 
@@ -229,9 +409,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   11640
-      TabIndex        =   23
-      Top             =   4800
+      Left            =   17160
+      TabIndex        =   18
+      Top             =   4680
       Width           =   525
    End
    Begin VB.Label Label16 
@@ -248,9 +428,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   10560
-      TabIndex        =   22
-      Top             =   3240
+      Left            =   16440
+      TabIndex        =   17
+      Top             =   3000
       Width           =   1050
    End
    Begin VB.Label Label15 
@@ -267,9 +447,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   11640
-      TabIndex        =   21
-      Top             =   3600
+      Left            =   17160
+      TabIndex        =   16
+      Top             =   3480
       Width           =   525
    End
    Begin VB.Label Label14 
@@ -286,105 +466,10 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   11640
-      TabIndex        =   20
-      Top             =   4200
-      Width           =   525
-   End
-   Begin VB.Label Label12 
-      AutoSize        =   -1  'True
-      BackStyle       =   0  'Transparent
-      Caption         =   "D ："
-      BeginProperty Font 
-         Name            =   "宋体"
-         Size            =   10.5
-         Charset         =   134
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   210
-      Left            =   360
-      TabIndex        =   19
-      Top             =   9720
-      Width           =   420
-   End
-   Begin VB.Label Label11 
-      AutoSize        =   -1  'True
-      BackStyle       =   0  'Transparent
-      Caption         =   "E ："
-      BeginProperty Font 
-         Name            =   "宋体"
-         Size            =   10.5
-         Charset         =   134
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   210
-      Left            =   360
-      TabIndex        =   18
-      Top             =   10200
-      Width           =   420
-   End
-   Begin VB.Label Label10 
-      AutoSize        =   -1  'True
-      BackStyle       =   0  'Transparent
-      Caption         =   "A ："
-      BeginProperty Font 
-         Name            =   "宋体"
-         Size            =   10.5
-         Charset         =   134
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   210
-      Left            =   360
-      TabIndex        =   17
-      Top             =   8280
-      Width           =   420
-   End
-   Begin VB.Label Label9 
-      AutoSize        =   -1  'True
-      BackStyle       =   0  'Transparent
-      Caption         =   "B ："
-      BeginProperty Font 
-         Name            =   "宋体"
-         Size            =   10.5
-         Charset         =   134
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   210
-      Left            =   360
-      TabIndex        =   16
-      Top             =   8760
-      Width           =   420
-   End
-   Begin VB.Label Label8 
-      AutoSize        =   -1  'True
-      BackStyle       =   0  'Transparent
-      Caption         =   "C ："
-      BeginProperty Font 
-         Name            =   "宋体"
-         Size            =   10.5
-         Charset         =   134
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   210
-      Left            =   360
+      Left            =   17160
       TabIndex        =   15
-      Top             =   9240
-      Width           =   420
+      Top             =   4080
+      Width           =   525
    End
    Begin VB.Label Label7 
       AutoSize        =   -1  'True
@@ -400,9 +485,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   14280
+      Left            =   16440
       TabIndex        =   13
-      Top             =   2160
+      Top             =   1800
       Width           =   1470
    End
    Begin VB.Label Label6 
@@ -419,9 +504,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   10560
+      Left            =   16440
       TabIndex        =   12
-      Top             =   2160
+      Top             =   1200
       Width           =   1050
    End
    Begin VB.Label Label5 
@@ -438,9 +523,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   12720
+      Left            =   5640
       TabIndex        =   8
-      Top             =   1440
+      Top             =   10440
       Width           =   1470
    End
    Begin VB.Label Label4 
@@ -457,9 +542,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   11760
+      Left            =   1680
       TabIndex        =   7
-      Top             =   1440
+      Top             =   10440
       Width           =   525
    End
    Begin VB.Label Label3 
@@ -476,9 +561,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   10560
+      Left            =   600
       TabIndex        =   6
-      Top             =   1440
+      Top             =   10440
       Width           =   1050
    End
    Begin VB.Label Label2 
@@ -495,9 +580,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   210
-      Left            =   10560
+      Left            =   600
       TabIndex        =   3
-      Top             =   960
+      Top             =   9840
       Width           =   1050
    End
    Begin VB.Label Label1 
@@ -520,11 +605,11 @@ Begin VB.Form Form1
       Width           =   1200
    End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
-      Height          =   6615
+      Height          =   8535
       Left            =   360
       TabIndex        =   0
-      Top             =   960
-      Width           =   9975
+      Top             =   600
+      Width           =   15495
       URL             =   ""
       rate            =   1
       balance         =   0
@@ -548,8 +633,8 @@ Begin VB.Form Form1
       SAMIFilename    =   ""
       captioningID    =   ""
       enableErrorDialogs=   0   'False
-      _cx             =   17595
-      _cy             =   11668
+      _cx             =   27331
+      _cy             =   15055
    End
 End
 Attribute VB_Name = "Form1"
