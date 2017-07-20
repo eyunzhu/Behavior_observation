@@ -11,6 +11,13 @@ Begin VB.Form Form1
    ScaleHeight     =   12375
    ScaleWidth      =   22800
    StartUpPosition =   3  '´°¿ÚÈ±Ê¡
+   Begin VB.TextBox Text3 
+      Height          =   390
+      Left            =   20280
+      TabIndex        =   36
+      Top             =   3360
+      Width           =   1335
+   End
    Begin VB.TextBox Text1 
       BeginProperty Font 
          Name            =   "ËÎÌå"
